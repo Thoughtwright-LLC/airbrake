@@ -1,4 +1,6 @@
 require 'airbrake'
+require 'action_controller'
+require 'action_controller/test_process'
 require File.join(File.dirname(__FILE__), 'shared_tasks')
 
 namespace :airbrake do
